@@ -8,7 +8,7 @@ private:
     std::vector<Book*>borrowedBooks;
 public:
     // constructor
-    Borrow(const std::string& name);
+    Borrow(const std::string name);
 
     // getter
     std::string getName() const;

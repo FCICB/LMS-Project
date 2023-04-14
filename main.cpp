@@ -26,6 +26,9 @@ void displayMenu() {
 
 int main() {
     Record record;
+    Borrow borrow("HandleGamed");
+
+
     record.addBook(Book("How to Fail at Almost Everything and Still Win Big", "Scott Adams", "159-184-7745"));
     record.addBook(Book("So Good They Can't Ignore You", " Cal Newport", "145-550-9124"));
     record.addBook(Book("Agile Software Development Principles, Patterns, and Practices", "Robert C. Martin",
@@ -34,16 +37,16 @@ int main() {
                         "978-076-116-9253"));
 
     int choice;
-    string title, author, isbn;
+    string title, author, isbn, borrowerName;
 
     while (true) {
         displayMenu();
         cin >> choice;
         switch (choice) {
-            case 0:{
+            case 0: {
                 string fileName;
-                cout<<"Enter file name: ";
-                cin>>fileName;
+                cout << "Enter file name: ";
+                cin >> fileName;
                 record.loadFromFile(fileName);
             }
             case 1: {
@@ -60,10 +63,9 @@ int main() {
                 break;
             }
             case 2: {
-                cout << "Enter Book Title: ";
+                cout << "Enter title of book: ";
                 cin.ignore();
                 getline(cin, title);
-                record.editBook(title);
                 break;
             }
             case 3: {
@@ -98,17 +100,19 @@ int main() {
                 record.displayRecordByISBN(isbn);
                 break;
             }
-            case 8:{
-                string title,borrower;
-                cout<<"Enter book title to borrow: ";
-                getline(cin,title);
-                cout<<"Enter borrower's name: ";
-                getline(cin,borrower);
-
-
+            case 8: {
+                string title, borrowerName;
+                cout << "Enter book title to borrow: ";
+                getline(cin, title);
+                cout << "Enter borrower name: ";
+                getline(cin, borrowerName);
+//                borrow.getName();
             }
-            case 9:{
-
+            case 9: {
+                cout << "Enter Book Title to return";
+                cin.ignore();
+                getline(cin, title);
+//                borrow.returnBook( );
             }
             case 11: {
                 cout << "Exiting" << endl;

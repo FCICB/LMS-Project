@@ -86,19 +86,18 @@ void Book::search(const std::string &keyword) const {
         cout << "No books found matching the keyword: " << keyword << endl;
     }
 }
-/*
 int main(){
     // Create a book object
-    Book book1("The Catcher in the Rye", "J.D. Salinger", "9780316769488", true);
+    Book book1("So Good They Can't Ignore You", "Cal Newport", "145-550-9124", true);
 
     // Display book details
     std::cout << "Book 1 Details:\n";
     book1.displayBook();
 
     // Update book details using setters
-    book1.setTitle("To Kill a Mockingbird");
-    book1.setAuthor("Harper Lee");
-    book1.setISBN("9780061120084");
+    book1.setTitle("How to Fail at Almost Everything and Still Win Big");
+    book1.setAuthor("Scott Adams");
+    book1.setISBN("159-184-7745");
     book1.setAvailable(false);
 
     // Display updated book details
@@ -117,6 +116,5 @@ int main(){
 
 }
 
-*/
 
 

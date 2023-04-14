@@ -94,12 +94,6 @@
 		<Unit filename="C:/Users/dell/CLionProjects/LMS_PROJECT/borrow.h">
 			<Option target="LMS_PROJECT"/>
 		</Unit>
-		<Unit filename="C:/Users/dell/CLionProjects/LMS_PROJECT/library.cpp">
-			<Option target="LMS_PROJECT"/>
-		</Unit>
-		<Unit filename="C:/Users/dell/CLionProjects/LMS_PROJECT/library.h">
-			<Option target="LMS_PROJECT"/>
-		</Unit>
 		<Unit filename="C:/Users/dell/CLionProjects/LMS_PROJECT/main.cpp">
 			<Option target="LMS_PROJECT"/>
 		</Unit>

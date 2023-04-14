@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LMS_PROJECT.dir/book.cpp.obj"
   "CMakeFiles/LMS_PROJECT.dir/borrow.cpp.obj"
-  "CMakeFiles/LMS_PROJECT.dir/library.cpp.obj"
   "CMakeFiles/LMS_PROJECT.dir/main.cpp.obj"
   "CMakeFiles/LMS_PROJECT.dir/record.cpp.obj"
   "LMS_PROJECT.exe"

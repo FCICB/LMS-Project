@@ -145,3 +145,102 @@ void Record::displayRecordByISBN(const string &isbn) const {
         cout << "No record found with ISBN: " << isbn << endl;
     }
 }
+/*
+int main(){
+    Record record;
+    string fileName="books.txt";
+    try{
+        record.loadFromFile(fileName);
+        cout<<"Books loaded from the file successfully.\n";
+    } catch(const runtime_error &e){
+        cerr<<"Failed to load books from file: "<<e.what()<<endl;
+    }
+    while(true){
+        cout << "Options:\n";
+        cout << "1. Add book\n";
+        cout << "2. Edit book\n";
+        cout << "3. Delete book\n";
+        cout << "4. Display all records\n";
+        cout << "5. Display record by title\n";
+        cout << "6. Display record by author\n";
+        cout << "7. Display record by ISBN\n";
+        cout << "8. Quit\n";
+        cout << "Enter option: ";
+
+        int option; cin >> option;
+        cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+        string title, author, isbn;
+        Book book(title,author,isbn);
+
+        switch (option) {
+            case 1:
+                cout << "Enter title: ";
+                getline(cin, title);
+                cout << "Enter author: ";
+                getline(cin, author);
+                cout << "Enter ISBN: ";
+                getline(cin, isbn);
+
+                book.setTitle(title);
+                book.setAuthor(author);
+                book.setISBN(isbn);
+
+
+                record.addBook(book);
+                cout << "Book added successfully.\n";
+                break;
+
+            case 2:
+                cout << "Enter title of book to edit: ";
+                getline(cin, title);
+                try {
+                    record.editBook(title);
+                } catch (const BookNotFoundException &e) {
+                    cerr << "Error: " << e.what() << endl;
+                }
+                break;
+
+            case 3:
+                cout << "Enter title of book to delete: ";
+                getline(cin, title);
+                try {
+                    record.deleteBook(title);
+                } catch (const BookNotFoundException &e) {
+                    cerr << "Error: " << e.what() << endl;
+                }
+                break;
+
+            case 4:
+                record.displayAllRecords();
+                break;
+
+            case 5:
+                cout << "Enter title: ";
+                getline(cin, title);
+                record.displayRecordByTitle(title);
+                break;
+
+            case 6:
+                cout << "Enter author: ";
+                getline(cin, author);
+                record.displayRecordByAuthor(author);
+                break;
+
+            case 7:
+                cout << "Enter ISBN: ";
+                getline(cin, isbn);
+                record.displayRecordByISBN(isbn);
+                break;
+
+            case 8:
+                cout << "Goodbye!\n";
+                return 0;
+
+            default:
+                cout << "Invalid option. Please try again.\n";
+                break;
+        }
+    }
+
+}*/

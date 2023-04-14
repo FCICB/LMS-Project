@@ -195,33 +195,6 @@ borrow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LMS_PROJECT.dir\build.make CMakeFiles/LMS_PROJECT.dir/borrow.cpp.s
 .PHONY : borrow.cpp.s
 
-library.obj: library.cpp.obj
-
-.PHONY : library.obj
-
-# target to build an object file
-library.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LMS_PROJECT.dir\build.make CMakeFiles/LMS_PROJECT.dir/library.cpp.obj
-.PHONY : library.cpp.obj
-
-library.i: library.cpp.i
-
-.PHONY : library.i
-
-# target to preprocess a source file
-library.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LMS_PROJECT.dir\build.make CMakeFiles/LMS_PROJECT.dir/library.cpp.i
-.PHONY : library.cpp.i
-
-library.s: library.cpp.s
-
-.PHONY : library.s
-
-# target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\LMS_PROJECT.dir\build.make CMakeFiles/LMS_PROJECT.dir/library.cpp.s
-.PHONY : library.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -291,9 +264,6 @@ help:
 	@echo ... borrow.obj
 	@echo ... borrow.i
 	@echo ... borrow.s
-	@echo ... library.obj
-	@echo ... library.i
-	@echo ... library.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

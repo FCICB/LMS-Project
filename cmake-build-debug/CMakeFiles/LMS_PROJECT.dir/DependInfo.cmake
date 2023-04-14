@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/dell/CLionProjects/LMS_PROJECT/book.cpp" "C:/Users/dell/CLionProjects/LMS_PROJECT/cmake-build-debug/CMakeFiles/LMS_PROJECT.dir/book.cpp.obj"
   "C:/Users/dell/CLionProjects/LMS_PROJECT/borrow.cpp" "C:/Users/dell/CLionProjects/LMS_PROJECT/cmake-build-debug/CMakeFiles/LMS_PROJECT.dir/borrow.cpp.obj"
-  "C:/Users/dell/CLionProjects/LMS_PROJECT/library.cpp" "C:/Users/dell/CLionProjects/LMS_PROJECT/cmake-build-debug/CMakeFiles/LMS_PROJECT.dir/library.cpp.obj"
   "C:/Users/dell/CLionProjects/LMS_PROJECT/main.cpp" "C:/Users/dell/CLionProjects/LMS_PROJECT/cmake-build-debug/CMakeFiles/LMS_PROJECT.dir/main.cpp.obj"
   "C:/Users/dell/CLionProjects/LMS_PROJECT/record.cpp" "C:/Users/dell/CLionProjects/LMS_PROJECT/cmake-build-debug/CMakeFiles/LMS_PROJECT.dir/record.cpp.obj"
   )
