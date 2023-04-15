@@ -17,7 +17,7 @@ hands on excperience on what I've learned so far .
   
   - main.cpp this file is utilizes what's in the other 4 files .
 
-- the project can be enhanced in the future adding some features as:
+- The project can be enhanced in the future adding some features as:
   - Fine management: Implementing a feature to manage fines for overdue books, damaged books, or other penalties can enhance the library management system. This can involve calculating fines based on defined rules, tracking and updating fines for borrowers, and generating reports for fines collected.
   
   - Reservation and hold system: Implementing a reservation and hold system that allows users to reserve books that are currently checked out or on hold can enhance the user experience. This can involve managing reservation queues, notifications for available books, and automated book holds.
