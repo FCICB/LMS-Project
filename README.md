@@ -8,7 +8,7 @@ or you can remove , borrow or return a book.
 - The project was implemented using c++ , as an application for studying c/c++ , started to get
 hands on excperience on what I've learned so far .
 
-- The project contains 5 files :
+- The project contains 7 files :
   - book.h / book.cpp those files includes getter and setter functions for Title , author , ISBN of the book , also it contains the availabilty of books.
   
   - record.h / record.cpp those files contains vector for holding books to apply any functionality on them including deleting,adding,editing,displaying book by any member function .
