@@ -33,5 +33,5 @@ hands on excperience on what I've learned so far .
     
 2. you can run the project on any editor you've , suggested __CLion__ or __VScode__ .
 
-3. However the editor you'll use, make sure to install c/c++ compiler such as mingw.
+3. whatever the editor you'll use, make sure to install c/c++ compiler such as mingw.
   
